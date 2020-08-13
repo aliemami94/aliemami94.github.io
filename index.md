@@ -18,14 +18,14 @@ keywords: Condensed Matter Theory, Neural Network, Machine Learning, Quantum Man
 
     <div class="row-fluid">
         <div class="span5">
-            Blue Ham<br/>
+            Ali Emami Kopaei<br/>
             Email: ali.emami.app@gmail.com<br/>
         </div>
 
         <div class="span2">
-        <a href="../assets/headshot.jpg">
-            <img src="../assets/headshot.jpg"
-                  title="Ali Emami Kopaei" alt="Blue Ham"/></a>
+        <a href="../assets/IMG_4821.jpg">
+            <img src="../assets/IMG_4821.jpg"
+                  title="Ali Emami Kopaei" alt="Ali Emami Kopaei"/></a>
         </div>
     </div>
 </div>
