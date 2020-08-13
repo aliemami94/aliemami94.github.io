@@ -25,7 +25,7 @@ keywords: Condensed Matter Theory, Neural Network, Machine Learning, Quantum Man
  My field of research and interest mostly involves the study of phases transition of many-body quantum systems. In particular, the goal of my M.Sc. is to study the phases transition of strongly correlated systems with artificial neural networks.
 
 
- #### Research Interests:</u>
+ #### <u>Research Interests:</u>
 
   Condensed Matter Theory
 
@@ -40,7 +40,7 @@ keywords: Condensed Matter Theory, Neural Network, Machine Learning, Quantum Man
   Machine Learning
 
 
-#### Expertise in Computational Condensed Matter Physics:</u>
+#### <u>Expertise in Computational Condensed Matter Physics:</u>
 
 1. Artificial Neural Network based Machine Learning
 
