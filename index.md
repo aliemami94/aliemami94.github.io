@@ -2,7 +2,7 @@
 layout: frontpage
 title: Ali Emami Kopaei
 description: M.Sc. Physics, Sharif university of technology, Tehran, Iran. 
-keywords: Condensed Matter Theory, Neural Network, Machine Learning, Quantum Many-Body Physics, Computational Physics
+keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei physics
 ---
 
 <div class="container">
