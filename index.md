@@ -1,11 +1,11 @@
 ---
 layout: frontpage
-title: Blue Ham
-description: Blue Ham is a PhD candidate at Broom University. 
-keywords: Blue, Ham, treats, recycling, mail, being a good boy
+title: Ali Emami Kopaei
+description: M.Sc. Physics, Sharif university of technology, Tehran, Iran. 
+keywords: Condensed Matter Theory, Neural Network, Machine Learning, Quantum Many-Body Physics, Computational Physics
 ---
-
-Blue Ham is a PhD candidate at Broom University. His research interests include analyzing the effectiveness of treat-based incentives such as recycling and getting the mail, as well as designing new methods to protect humans from the adverse effects of rolling trash receptacles.
+ I am currently a last year M.Sc. student in physics at the Sharif University of Technology, Iran. Here, I joined the group of Prof. Abdollah Langari, worked in close collaboration with Dr. Mehdi Kargarian, and also took advantage of fruitful discussions with expert researchers such as Dr. Abolhassan Vaezi and Dr. Hadi Yarloo.
+ My field of research and interest mostly involves the study of phases transition of many-body quantum systems. In particular, the goal of my M.Sc. is to study the phases transition of strongly correlated systems with artificial neural networks.
 
 [curriculum vitae ![CV as pdf]({{ BASE_PATH }}/pages/icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/CV.pdf)<br/>
 
@@ -19,13 +19,13 @@ Blue Ham is a PhD candidate at Broom University. His research interests include 
     <div class="row-fluid">
         <div class="span5">
             Blue Ham<br/>
-            Email: WOOFWOOF@goodboy.com<br/>
+            Email: ali.emami.app@gmail.com<br/>
         </div>
 
         <div class="span2">
         <a href="../assets/headshot.jpg">
             <img src="../assets/headshot.jpg"
-                  title="Blue Ham" alt="Blue Ham"/></a>
+                  title="Ali Emami Kopaei" alt="Blue Ham"/></a>
         </div>
     </div>
 </div>
@@ -34,8 +34,8 @@ Blue Ham is a PhD candidate at Broom University. His research interests include 
   <div class="navbar-inner">
       <ul class="nav">
           <li><a href="{{ BASE_PATH }}/assets/CV.pdf">cv</a></li>
-          <li><a href="https://github.com/mbcarlos">GitHub</a></li>
-          <li><a href="https://twitter.com/dog_feelings">Twitter (@dog_feelings)</a></li>
+          <li><a href="https://github.com/aliemami94">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/ali-e-7b5b25120/">linkedin (@Aliemami)</a></li>
       </ul>
   </div>
 </div>

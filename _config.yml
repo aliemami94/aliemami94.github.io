@@ -8,14 +8,14 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Blue Ham
+title : Ali Emami Kopaei
 author :
-  name : Marisa Carlos
-  email : mbc96@cornell.edu
-  github : mbcarlos
-  twitter : MarisaBriCarlos
+  name : Ali Emami Kopaei
+  email : ali.emami.app@gmail.com
+  github : aliemami94
+  linkedin : AliEmamiK
 
-production_url : http://marisabriana.github.io
+production_url : http://aliemami94.github.io
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
