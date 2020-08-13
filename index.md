@@ -26,6 +26,10 @@ keywords: Condensed Matter Theory, Neural Network, Machine Learning, Quantum Man
 
 
 #### Research Interests:
+
+<div class="text-white bg-blue mb-2">
+Research Interests:
+</div>
  
 Condensed Matter Theory
 
@@ -68,9 +72,9 @@ Machine Learning
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
-          <li><a href="{{ BASE_PATH }}/assets/CV.pdf">cv</a></li>
+          <li><a href="{{ BASE_PATH }}/assets/CV.pdf">CV</a></li>
           <li><a href="https://github.com/aliemami94">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/ali-e-7b5b25120/">linkedin (@Aliemami)</a></li>
+          <li><a href="https://www.linkedin.com/in/ali-e-7b5b25120/">Linkedin (@Aliemami)</a></li>
       </ul>
   </div>
 </div>
