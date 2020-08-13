@@ -24,7 +24,8 @@ keywords: Condensed Matter Theory, Neural Network, Machine Learning, Quantum Man
  I am currently a last year M.Sc. student in physics at the Sharif University of Technology, Iran. Here, I joined the group of Prof. Abdollah Langari, worked in close collaboration with Dr. Mehdi Kargarian, and also took advantage of fruitful discussions with expert researchers such as Dr. Abolhassan Vaezi and Dr. Hadi Yarloo.
  My field of research and interest mostly involves the study of phases transition of many-body quantum systems. In particular, the goal of my M.Sc. is to study the phases transition of strongly correlated systems with artificial neural networks.
 
- ##Research Interests:
+
+ #### Research Interests:</u>
 
   Condensed Matter Theory
 
@@ -39,7 +40,7 @@ keywords: Condensed Matter Theory, Neural Network, Machine Learning, Quantum Man
   Machine Learning
 
 
-##Expertise in Computational Condensed Matter Physics:
+#### Expertise in Computational Condensed Matter Physics:</u>
 
 1. Artificial Neural Network based Machine Learning
 
