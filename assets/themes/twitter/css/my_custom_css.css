@@ -58,7 +58,8 @@ td.right {
 
 
 h1, h2, h3, h4 {
-    color: darkslateblue;
+    color: rgb(25, 139, 253)
+    ;
 }
 
 .danger {
