@@ -27,17 +27,17 @@ keywords: Condensed Matter Theory, Neural Network, Machine Learning, Quantum Man
 
  #### <u>Research Interests:</u>
 
-  Condensed Matter Theory
+Condensed Matter Theory
 
-  Quantum Many-Body Physics
+Quantum Many-Body Physics
 
-  Quantum Statistical Physics
+Quantum Statistical Physics
 
-  Computational Physics
+Computational Physics
 
-  Neural Network
+Neural Network
 
-  Machine Learning
+Machine Learning
 
 
 #### <u>Expertise in Computational Condensed Matter Physics:</u>
