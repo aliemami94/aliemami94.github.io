@@ -4,24 +4,24 @@ title: Ali Emami Kopaei
 description: M.Sc. Physics, Sharif university of technology, Tehran, Iran. 
 keywords: Condensed Matter Theory, Neural Network, Machine Learning, Quantum Many-Body Physics, Computational Physics
 ---
-<h1 style="border:2px solid DodgerBlue;">
-    <div class="container">
-    <h4><a name="contact"></a>contact</h4>
 
-        <div class="row-fluid">
-            <div class="span5">
-                Ali Emami Kopaei<br/>
-                Email: ali.emami.app@gmail.com<br/>
-            </div>
+<div class="container">
+<h4><a name="contact"></a>contact</h4>
 
-            <div class="span2">
-            <a href="../assets/photo1127844647015655419.jpg">
-                <img src="../assets/photo1127844647015655419.jpg"
-                    title="Ali Emami Kopaei" alt="Ali Emami Kopaei"/></a>
-            </div>
+    <div class="row-fluid">
+        <div class="span5">
+            Ali Emami Kopaei<br/>
+            Email: ali.emami.app@gmail.com<br/>
+        </div>
+
+        <div class="span2">
+        <a href="../assets/photo1127844647015655419.jpg">
+            <img src="../assets/photo1127844647015655419.jpg"
+                title="Ali Emami Kopaei" alt="Ali Emami Kopaei"/></a>
         </div>
     </div>
-</h1>
+</div>
+    
 
  I am currently a last year M.Sc. student in physics at the Sharif University of Technology, Iran. Here, I joined the group of Prof. Abdollah Langari, worked in close collaboration with Dr. Mehdi Kargarian, and also took advantage of fruitful discussions with expert researchers such as Dr. Abolhassan Vaezi and Dr. Hadi Yarloo.
  My field of research and interest mostly involves the study of phases transition of many-body quantum systems. In particular, the goal of my M.Sc. is to study the phases transition of strongly correlated systems with artificial neural networks.
