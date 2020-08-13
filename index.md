@@ -23,8 +23,8 @@ keywords: Condensed Matter Theory, Neural Network, Machine Learning, Quantum Man
         </div>
 
         <div class="span2">
-        <a href="../assets/IMG_4821.jpg">
-            <img src="../assets/IMG_4821.jpg"
+        <a href="../assets/photo1127844647015655419.jpg">
+            <img src="../assets/photo1127844647015655419.jpg"
                   title="Ali Emami Kopaei" alt="Ali Emami Kopaei"/></a>
         </div>
     </div>
