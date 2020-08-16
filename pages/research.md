@@ -3,12 +3,6 @@ layout: page
 title: Research
 description: A.Emami Kopaei's research
 ---
-<div class="span2">
-        <a href="../assets/zz.gif">
-            <img src="../assets/zz.gif"
-                title="NN" alt="NN"/></a>
-        </div>
-
 
 #### <u>Homogeneous Floquet time crystal from weak ergodicity breaking</u>
 Recent works on observation of discrete time-crystalline signatures throw up major puzzles on the necessity
