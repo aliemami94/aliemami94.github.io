@@ -24,7 +24,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
     
 
  I am currently a last year M.Sc. student in physics at the Sharif University of Technology, Iran. Here, I joined the group of 
-[Prof. Abdollah Langari ]("href=https://physics.sharif.ir/~web/abdolah-langary"), worked in close collaboration with [Prof. Mehdi Kargarian]("href=https://sharif.edu/~kargarian"), and also took advantage of fruitful discussions with expert researchers such as [Prof. Abolhassan Vaezi]("href=https://physics.sharif.ir/~web/seyyed-mir-abolhassan-vaezi") and Dr. Hadi Yarloo.
+Prof. Abdollah Langari , worked in close collaboration with Prof. Mehdi Kargarian, and also took advantage of fruitful discussions with expert researchers such as Prof. Abolhassan Vaezi and Dr. Hadi Yarloo.
  My field of research and interest mostly involves the study of phases transition of many-body quantum systems. In particular, the goal of my M.Sc. is to study the phases transition of strongly correlated systems with artificial neural networks.
 
 
