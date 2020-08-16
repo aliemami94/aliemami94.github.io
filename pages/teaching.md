@@ -14,11 +14,7 @@ description: A.Emami Kopaei's research
 
 #### <u>Fundamentals of Statistical and Thermal Physics (Instructor: Dr.Moghimi)</u>
 <img align="left" src="../assets/G.jpg" width="60px" height="90px" border="1px"/>
-<div class="span2">
-        <a href="../assets/G.jpg">
-            <img src="../assets/G.jpg"
-                title="Statistical" alt="Statistical"/></a>
-        </div>
+
 [Teacher Assistant Fall 2019]("http://sharif.edu/~samanimi")
 
 #### <u>Introduction to Electrodynamics II (Instructor: Dr.Langari)</u>
