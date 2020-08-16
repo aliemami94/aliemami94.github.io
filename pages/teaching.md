@@ -7,19 +7,24 @@ description: A.Emami Kopaei's research
 
 
 #### <u>Introduction to Electrodynamics I (Instructor: Dr.Langari)</u>
-<img align="left" src="k.jpg" width="60px" height="90px" border="1px"/>
+<img align="left" src="../assets/k.jpg" width="60px" height="90px" border="1px"/>
 
 [Teacher Assistant Winter 2019]("http://physics.sharif.edu/~spin/courses/")
 
 
 #### <u>Fundamentals of Statistical and Thermal Physics (Instructor: Dr.Moghimi)</u>
-<img align="left" src="G.jpg" width="60px" height="90px" border="1px"/>
+<img align="left" src="../assets/G.jpg" width="60px" height="90px" border="1px"/>
+<div class="span2">
+        <a href="../assets/G.jpg">
+            <img src="../assets/G.jpg"
+                title="Statistical" alt="Statistical"/></a>
+        </div>
 [Teacher Assistant Fall 2019]("http://sharif.edu/~samanimi")
 
 #### <u>Introduction to Electrodynamics II (Instructor: Dr.Langari)</u>
-<img align="left" src="k.jpg" width="60px" height="90px" border="1px"/>
+<img align="left" src="../assets/k.jpg" width="60px" height="90px" border="1px"/>
 
-[Teacher Assistant Winter 2019]("http://physics.sharif.edu/~spin/courses/")
+[Teacher Assistant Winter 2020]("http://physics.sharif.edu/~spin/courses/")
 			
 
 <!--[click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/sample-working-paper.pdf)-->
