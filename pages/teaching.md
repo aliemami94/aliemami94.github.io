@@ -24,7 +24,7 @@ description: A.Emami Kopaei's teaching
 
 
 #### <u>Fundamentals of Statistical and Thermal Physics (Instructor: Dr.Moghimi)</u>
-<img align="left" src="../assets/G.jpg" width="100px" height="1300px" border="1px"/>
+<img align="left" src="../assets/G.jpg" width="160px" height="90px" border="1px"/>
 
 [Teacher Assistant Fall 2019]("https://sharif.edu/~samanimi")
 <br/>
