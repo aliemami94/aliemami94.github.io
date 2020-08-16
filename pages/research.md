@@ -3,7 +3,11 @@ layout: page
 title: Research
 description: A.Emami Kopaei's research
 ---
-
+<div class="span2">
+        <a href="../assets/zz.gif">
+            <img src="../assets/zz.gif"
+                title="NN" alt="NN"/></a>
+        </div>
 
 
 #### <u>Homogeneous Floquet time crystal from weak ergodicity breaking</u>
@@ -20,6 +24,7 @@ with fractured structure. We dub such a long-lived discrete time crystal formed 
 or prethermalization mechanism.
 
 [click here for the most recent version of the paper](https://arxiv.org/pdf/2007.14982.pdf)
+
 
 
 
