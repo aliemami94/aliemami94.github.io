@@ -2,7 +2,7 @@
 layout: frontpage
 title: Ali Emami Kopaei
 description: M.Sc. Physics, Sharif university of technology, Tehran, Iran. 
-keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei physics
+keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei physics, A E Kopaei, A Emami Kopaei, a emami kopaei, a emami kopaei, ali emami kopaei, sharif ali emami, ali emami sharif
 ---
 
 <div class="container">
