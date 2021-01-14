@@ -17,7 +17,7 @@ with fractured structure. We dub such a long-lived discrete time crystal formed 
 “scarred discrete time crystal” which is distinct by nature from those stabilized by either many-body localization
 or prethermalization mechanism.
 
-[click here for the most recent version of the paper](https://journals.aps.org/prb/abstract/10.1103/PhysRevB102224309)
+[click here for the most recent version of the paper](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.224309)
 
 
 

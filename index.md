@@ -14,6 +14,11 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
             Email: ali.emami.app@gmail.com<br/>
         </div>
 
+        <div class="span5">
+            Email: ali.emami.kopaei.@doctoral.uj.edu.pl<br/>
+        </div>
+        
+
         <div class="span2">
         <a href="../assets/photo1127844647015655419.jpg">
             <img src="../assets/photo1127844647015655419.jpg"
@@ -24,7 +29,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
     
 
  I am currently a Ph.D. student in physics at the Jagiellonian University, Krakow, Poland. Here, I joined the group of 
-Prof.Krzysztof Sacha.
+Prof. Krzysztof Sacha.
  My field of research and interest mostly involves the study of Time Crystaline behavior.
 
 
