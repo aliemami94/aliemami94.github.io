@@ -11,13 +11,8 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
     <div class="row-fluid">
         <div class="span5">
             Ali Emami Kopaei<br/>
-            Email: ali.emami.app@gmail.com<br/>
-        </div>
-
-        <div class="span5">
-            Email: ali.emami.kopaei.@doctoral.uj.edu.pl<br/>
-        </div>
-        
+            Email: ali.emami.app@gmail.com and ali.emami.kopaei.@doctoral.uj.edu.pl<br/>
+        </div>    
 
         <div class="span2">
         <a href="../assets/photo1127844647015655419.jpg">
