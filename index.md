@@ -1,7 +1,7 @@
 ---
 layout: frontpage
 title: Ali Emami Kopaei
-description: M.Sc. Physics, Sharif university of technology, Tehran, Iran. 
+description: Ph.D. Physics, physics at the Jagiellonian University, Krakow, Poland.
 keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei physics, A E Kopaei, A Emami Kopaei, a emami kopaei, a emami kopaei, ali emami kopaei, sharif ali emami, ali emami sharif
 ---
 
@@ -23,13 +23,14 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
 </div>
     
 
- I am currently a last year M.Sc. student in physics at the Sharif University of Technology, Iran. Here, I joined the group of 
-Prof. Abdollah Langari , worked in close collaboration with Prof. Mehdi Kargarian, and also took advantage of fruitful discussions with expert researchers such as Prof. Abolhassan Vaezi and Dr. Hadi Yarloo.
- My field of research and interest mostly involves the study of phases transition of many-body quantum systems. In particular, the goal of my M.Sc. is to study the phases transition of strongly correlated systems with artificial neural networks.
+ I am currently a Ph.D. student in physics at the Jagiellonian University, Krakow, Poland. Here, I joined the group of 
+Prof.Krzysztof Sacha.
+ My field of research and interest mostly involves the study of Time Crystaline behavior.
 
 
 #### Research Interests:
- 
+Time Crystals
+
 Condensed Matter Theory
 
 Quantum Many-Body Physics
