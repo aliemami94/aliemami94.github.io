@@ -7,7 +7,7 @@ description: A.Emami Kopaei's research
 It is common knowledge that atoms can form molecules if they attract each other. Here we show that it is possible to create molecules where bound states of atoms are not the result of the attractive interactions but have the topological origin. That is, bound states of atoms correspond to topologically protected edge states of a topological model. Such topological molecules can be realized if the interaction strength between ultra-cold atoms is properly modulated in time. Similar mechanism allows one to realize topologically protected localization of an electron on a classical orbit if a Rydberg atom is perturbed by a properly modulated microwave field.
 
 
-[click here for the most recent version of the paper](https://https://arxiv.org/abs/2201.10246)
+[click here for the most recent version of the paper](https://arxiv.org/abs/2201.10246)
 
 
 #### <u>Homogeneous Floquet time crystal from weak ergodicity breaking</u>
