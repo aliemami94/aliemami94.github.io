@@ -2,7 +2,7 @@
 layout: frontpage
 title: Ali Emami Kopaei
 description: Ph.D. Physics, physics at the Jagiellonian University, Krakow, Poland.
-keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei physics, A E Kopaei, A Emami Kopaei, a emami kopaei, a emami kopaei, ali emami kopaei, sharif ali emami, ali emami sharif
+keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei physics, A E Kopaei, A Emami Kopaei, a emami kopaei, a emami kopaei, ali emami kopaei, UJ ali emami, ali emami kopaei,
 ---
 
 <div class="container">
@@ -64,7 +64,7 @@ Machine Learning
 
 
 
-[curriculum vitae ![CV as pdf]({{ BASE_PATH }}/pages/icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/CV.pdf)<br/>
+[curriculum vitae ![CV as pdf]({{ BASE_PATH }}/pages/icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/cv_ali.pdf)<br/>
 
 
 ---
@@ -72,7 +72,7 @@ Machine Learning
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
-          <li><a href="{{ BASE_PATH }}/assets/CV.pdf">CV</a></li>
+          <li><a href="{{ BASE_PATH }}/assets/cv_ali.pdf">CV</a></li>
           <li><a href="https://github.com/aliemami94">GitHub</a></li>
           <li><a href="https://www.linkedin.com/in/ali-e-7b5b25120/">Linkedin (@Aliemami)</a></li>
       </ul>
