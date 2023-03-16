@@ -3,6 +3,14 @@ layout: page
 title: Research
 description: A.Emami Kopaei's research
 ---
+
+#### <u>Classical Phase Space Crystals in Open Environment</u>
+It was recently discovered that a crystalline many-body state can exist in the phase space of a closed dynamical system. Phase space crystal can be anomalous Chern insulator that supports chiral topological transport without breaking physical time-reversal symmetry [L. Guo et al., Phys. Rev. B 105, 094301 (2022)]. In this work, we further study the effects of open dissipative environment with thermal noise, and identify the existence condition of classical phase space crystals in realistic scenarios. By defining a crystal order parameter, we plot the phase diagram in the parameter space of dissipation rate, interaction and temperature. Our present work paves the way to realise phase space crystals and explore anomalous chiral transport in experiments.
+
+
+[click here for the most recent version of the paper](https://arxiv.org/abs/2201.10246)
+
+
 #### <u>Topological Molecules and Topological Localization of a Rydberg Electron on a Classical Orbit</u>
 It is common knowledge that atoms can form molecules if they attract each other. Here we show that it is possible to create molecules where bound states of atoms are not the result of the attractive interactions but have the topological origin. That is, bound states of atoms correspond to topologically protected edge states of a topological model. Such topological molecules can be realized if the interaction strength between ultra-cold atoms is properly modulated in time. Similar mechanism allows one to realize topologically protected localization of an electron on a classical orbit if a Rydberg atom is perturbed by a properly modulated microwave field.
 
