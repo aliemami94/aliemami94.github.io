@@ -3,18 +3,34 @@ layout: page
 title: Teaching 
 description: A.Emami Kopaei's teaching
 ---
+#### <u>The physics of cold atoms (Instructor: Prof.Sacha)</u>
 
+[Teacher Assistant Winter 2023]("https://pegaz.uj.edu.pl/course/view.php?id=576489")
 
+<br/>
+<br/>
+
+#### <u>Selected issues of theoretical physics II  (Instructor: Prfo.Sacha)</u>
+
+[Teacher Assistant Winter 2023]("https://pegaz.uj.edu.pl/course/view.php?id=573341")
+
+<br/>
+<br/>
+
+#### <u>Selected issues of theoretical physics II  (Instructor: Prfo.Sacha)</u>
+
+[Teacher Assistant Winter 2022]("https://pegaz.uj.edu.pl/course/view.php?id=573341")
+
+<br/>
+<br/>
 
 #### <u>Introduction to Electrodynamics I (Instructor: Dr.Langari)</u>
-<img align="left" src="../assets/k.jpg" width="60px" height="90px" border="1px"/>
 
 [Teacher Assistant Winter 2019]("https://physics.sharif.edu/~spin/courses/")
 
 <br/>
 <br/>
 #### <u>Introduction to Electrodynamics II (Instructor: Dr.Langari)</u>
-<img align="left" src="../assets/k.jpg" width="60px" height="90px" border="1px"/>
 
 [Teacher Assistant Winter 2020]("https://physics.sharif.edu/~spin/courses/")
 <br/>
@@ -24,7 +40,6 @@ description: A.Emami Kopaei's teaching
 
 
 #### <u>Fundamentals of Statistical and Thermal Physics (Instructor: Dr.Moghimi)</u>
-<img align="left" src="../assets/G.jpg" width="160px" height="90px" border="1px"/>
 
 [Teacher Assistant Fall 2019]("https://sharif.edu/~samanimi")
 <br/>
