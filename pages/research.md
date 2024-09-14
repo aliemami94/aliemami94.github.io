@@ -3,6 +3,13 @@ layout: page
 title: Research
 description: A.Emami Kopaei's research
 ---
+#### <u>Towards Timetronics with Photonic Systems</u>
+Periodic driving of systems of particles can create crystalline structures in time. Such systems can be used to study solid-state physics phenomena in the time domain. In addition, it is possible to engineer the wave-number band structure of optical systems and to realize photonic time crystals by periodic temporal modulation of the material properties of the electromagnetic wave propagation medium. We introduce here a versatile averaged-permittivity approach which empowers emulating various condensed matter phases in the time dimension in a traveling wave resonator. This is achieved by utilizing temporal modulation of permittivity within a small segment of the resonator and the spatial shape of the segment. The required frequency and depth of the modulation are experimentally achievable, opening a pathway for research into the practical realisation of crystalline structures in time utilising microwave and optical systems.
+
+
+[click here for the most recent version of the paper](https://arxiv.org/abs/2409.07885)
+
+
 #### <u>Topologically protected quantized changes of the distance between atoms</u>
 Thouless pumping enables the transport of particles in a one-dimensional periodic potential if the potential is slowly and periodically modulated in time. The change in the position of particles after each modulation period is quantized and depends solely on the topology of the pump cycle, making it robust against perturbations. Here, we demonstrate that Thouless pumping also allows for the realization of topologically protected quantized changes of the distance between atoms if the atomic s-wave scattering length is properly modulated in time.
 
