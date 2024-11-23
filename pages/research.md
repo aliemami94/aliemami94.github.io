@@ -20,7 +20,7 @@ Periodic driving of systems of particles can create crystalline structures in ti
 Thouless pumping enables the transport of particles in a one-dimensional periodic potential if the potential is slowly and periodically modulated in time. The change in the position of particles after each modulation period is quantized and depends solely on the topology of the pump cycle, making it robust against perturbations. Here, we demonstrate that Thouless pumping also allows for the realization of topologically protected quantized changes of the distance between atoms if the atomic s-wave scattering length is properly modulated in time.
 
 
-[click here for the most recent version of the paper](https://arxiv.org/abs/2406.19850)
+[click here for the most recent version of the paper](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.043173)
 
 #### <u>Classical Phase Space Crystals in Open Environment</u>
 It was recently discovered that a crystalline many-body state can exist in the phase space of a closed dynamical system. Phase space crystal can be anomalous Chern insulator that supports chiral topological transport without breaking physical time-reversal symmetry [L. Guo et al., Phys. Rev. B 105, 094301 (2022)]. In this work, we further study the effects of open dissipative environment with thermal noise, and identify the existence condition of classical phase space crystals in realistic scenarios. By defining a crystal order parameter, we plot the phase diagram in the parameter space of dissipation rate, interaction and temperature. Our present work paves the way to realise phase space crystals and explore anomalous chiral transport in experiments.
