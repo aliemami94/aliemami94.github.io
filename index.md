@@ -15,8 +15,8 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
         </div>    
 
         <div class="span2">
-        <a href="../assets/photo1127844647015655419.jpg">
-            <img src="../assets/photo1127844647015655419.jpg"
+        <a href="../assets/IMG_4313.png">
+            <img src="../assets/IMG_4313.png"
                 title="Ali Emami Kopaei" alt="Ali Emami Kopaei"/></a>
         </div>
     </div>
