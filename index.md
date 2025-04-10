@@ -1,130 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Your Name</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio webpage of Your Name" />
-    <meta
-      name="keywords"
-      content="portfolio,personal website,projects,academic profile,physics"
-    />
-    <meta name="author" content="Your Name" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="icon" type="image/png" href="./logo.png" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
-    />
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <script type="module" src="index.js"></script>
-    <script src="js/profile-card.js"></script>
-  </head>
-  <body>
-    <div id="colorlib-page">
-      <div class="container-wrap">
-        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <i></i>
-        </a>
-        <aside id="colorlib-aside" role="complementary" class="border js-fullheight no-print">
-          <div class="text-center">
-            <div class="author-img">
-              <img alt="profile-img" src="./logo.png" />
-            </div>
-            <h1 id="colorlib-logo"><a href="./index.html">Your Name</a></h1>
-          </div>
-          <nav id="colorlib-main-menu" role="navigation" class="navbar" style="padding-top: 2em">
-            <div id="navbar" class="collapse">
-              <ul>
-                <li><a href="#" data-nav-section="about">About</a></li>
-                <li><a href="#" data-nav-section="skills">Skills</a></li>
-                <li><a href="#" data-nav-section="repos">Repositories</a></li>
-                <li><a href="#" data-nav-section="blogs">Blogs</a></li>
-                <li><a href="#" data-nav-section="experience">Experience</a></li>
-                <li><a href="#" data-nav-section="projects">Projects</a></li>
-                <li><a href="#" data-nav-section="education">Education</a></li>
-                <li><a href="#" data-nav-section="contact">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
-        </aside>
-        <div id="colorlib-main">
-          <section class="colorlib-about" data-section="about">
-            <div class="colorlib-narrow-content">
-              <div class="row animate-box" data-animate-effect="fadeInLeft">
-                <div class="about-desc">
-                  <h1>About</h1>
-                  <div id="bio"></div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Add other sections similarly -->
-          <section class="colorlib-footer no-print">
-            <div class="colorlib-narrow-content">
-              <p id="visitorCount">Visitor Count: Loading...</p>
-            </div>
-          </section>
-        </div>
-      </div>
+---
+layout: frontpage
+title: Ali Emami Kopaei
+description: Ph.D. Physics, physics at the Jagiellonian University, Krakow, Poland.
+keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei physics, A E Kopaei, A Emami Kopaei, a emami kopaei, ali emami kopaei, UJ ali emami
+---
+
+<!-- Bootstrap + Icons + AOS Animations -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #fff0f0 0%, #ffe0e0 100%);
+    color: #222;
+    scroll-behavior: smooth;
+  }
+  .navbar {
+    background-color: #880808;
+  }
+  .navbar a {
+    color: white !important;
+  }
+  .navbar a:hover {
+    color: #ffcc00 !important;
+  }
+  .profile-img {
+    max-width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease-in-out;
+  }
+  .profile-img:hover {
+    transform: scale(1.05);
+  }
+  .section {
+    background: linear-gradient(145deg, #ff9999, #ff6666);
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  }
+  .section-title {
+    border-bottom: 2px solid #fff;
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .wave {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: url('https://raw.githubusercontent.com/aliemami94/aliemami94.github.io/main/assets/wave-red.svg') repeat-x;
+    animation: wave 10s linear infinite;
+    transform: rotate(180deg);
+    margin-bottom: -3rem;
+  }
+  @keyframes wave {
+    0% { background-position-x: 0; }
+    100% { background-position-x: 1000px; }
+  }
+</style>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top shadow">
+  <div class="container">
+    <a class="navbar-brand text-white fw-bold" href="#">Ali Emami Kopaei</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="{{ BASE_PATH }}/assets/cv_ali.pdf"><i class="bi bi-file-earmark-person"></i> CV</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://github.com/aliemami94"><i class="bi bi-github"></i> GitHub</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/ali-e-7b5b25120/"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+      </ul>
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/main.js"></script>
+  </div>
+</nav>
 
-    <script type="module">
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
-      import {
-        getFirestore,
-        doc,
-        getDoc,
-        setDoc,
-        updateDoc,
-      } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+<!-- Main Container -->
+<div class="container mt-5 pt-5">
 
-      const firebaseConfig = {
-        apiKey: "AIzaSyBM5-cQema1PzjpTPtCxIdmvTrWH2p1nc8",
-        authDomain: "vinaysomawat-portfolio.firebaseapp.com",
-        projectId: "vinaysomawat-portfolio",
-        storageBucket: "vinaysomawat-portfolio.appspot.com",
-        messagingSenderId: "996992279996",
-        appId: "1:996992279996:web:f296555eef216d501337b9",
-        measurementId: "G-8PVX0MLGSK"
-      };
+  <div class="row align-items-center mb-5" data-aos="fade-up">
+    <div class="col-md-8">
+      <h2 class="mb-3">About Me</h2>
+      <p>I am currently a Ph.D. student in physics at the <strong>Jagiellonian University</strong>, Krakow, Poland, working with 
+      <a href="https://chaos.if.uj.edu.pl/~sacha/" target="_blank">Prof. Krzysztof Sacha</a>. My research focuses on 
+      <strong>Time Crystalline behavior</strong> and modern quantum systems.</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img src="../assets/IMG_4313.png" alt="Ali Emami Kopaei" class="profile-img mt-3">
+    </div>
+  </div>
 
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
-      const db = getFirestore(app);
-      const counterRef = doc(db, "visitors", "counter");
+  <div class="wave"></div>
 
-      async function updateVisitorCount() {
-        try {
-          const docSnap = await getDoc(counterRef);
-          if (docSnap.exists()) {
-            let newCount = docSnap.data().count + 1;
-            await updateDoc(counterRef, { count: newCount });
-            document.getElementById("visitorCount").innerText = `Visitor Count: ${newCount}`;
-          } else {
-            await setDoc(counterRef, { count: 1 });
-            document.getElementById("visitorCount").innerText = "Visitor Count: 1";
-          }
-        } catch (error) {
-          console.error("Error updating visitor count:", error);
-        }
-      }
+  <div class="section" data-aos="fade-right">
+    <div class="section-title">Contact</div>
+    <p><i class="bi bi-envelope-fill"></i> ali.emami.app@gmail.com<br>
+       <i class="bi bi-envelope-open-heart"></i> ali.emami.kopaei.@doctoral.uj.edu.pl</p>
+  </div>
 
-      updateVisitorCount();
-    </script>
-  </body>
-</html>
+  <div class="section" data-aos="fade-left">
+    <div class="section-title">Research Interests</div>
+    <ul>
+      <li>Time Crystals</li>
+      <li>Condensed Matter Theory</li>
+      <li>Quantum Many-Body Physics</li>
+      <li>Quantum Statistical Physics</li>
+      <li>Computational Physics</li>
+      <li>Neural Networks & Machine Learning</li>
+    </ul>
+  </div>
+
+  <div class="section" data-aos="fade-up">
+    <div class="section-title">Computational Expertise</div>
+    <ol>
+      <li>Artificial Neural Networks</li>
+      <li>Deep Learning Phases of Matter</li>
+      <li>Tensor Network Methods (MPS)</li>
+      <li>Exact Diagonalization</li>
+      <li>DMRG</li>
+      <li>TEBD</li>
+      <li>Quantum Monte Carlo</li>
+      <li>Krylov Subspace Iteration</li>
+    </ol>
+  </div>
+
+  <p class="text-center" data-aos="zoom-in">
+    <a href="{{ BASE_PATH }}/assets/cv_ali.pdf" class="btn btn-outline-light btn-lg mt-3">
+      <i class="bi bi-file-earmark-pdf"></i> Download CV
+    </a>
+  </p>
+
+</div>
+
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
