@@ -1,111 +1,130 @@
----
-layout: frontpage
-title: Ali Emami Kopaei
-description: Ph.D. Physics, physics at the Jagiellonian University, Krakow, Poland.
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Your Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio webpage of Your Name" />
+    <meta
+      name="keywords"
+      content="portfolio,personal website,projects,academic profile,physics"
+    />
+    <meta name="author" content="Your Name" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" type="image/png" href="./logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    />
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script type="module" src="index.js"></script>
+    <script src="js/profile-card.js"></script>
+  </head>
+  <body>
+    <div id="colorlib-page">
+      <div class="container-wrap">
+        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <i></i>
+        </a>
+        <aside id="colorlib-aside" role="complementary" class="border js-fullheight no-print">
+          <div class="text-center">
+            <div class="author-img">
+              <img alt="profile-img" src="./logo.png" />
+            </div>
+            <h1 id="colorlib-logo"><a href="./index.html">Your Name</a></h1>
+          </div>
+          <nav id="colorlib-main-menu" role="navigation" class="navbar" style="padding-top: 2em">
+            <div id="navbar" class="collapse">
+              <ul>
+                <li><a href="#" data-nav-section="about">About</a></li>
+                <li><a href="#" data-nav-section="skills">Skills</a></li>
+                <li><a href="#" data-nav-section="repos">Repositories</a></li>
+                <li><a href="#" data-nav-section="blogs">Blogs</a></li>
+                <li><a href="#" data-nav-section="experience">Experience</a></li>
+                <li><a href="#" data-nav-section="projects">Projects</a></li>
+                <li><a href="#" data-nav-section="education">Education</a></li>
+                <li><a href="#" data-nav-section="contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </aside>
+        <div id="colorlib-main">
+          <section class="colorlib-about" data-section="about">
+            <div class="colorlib-narrow-content">
+              <div class="row animate-box" data-animate-effect="fadeInLeft">
+                <div class="about-desc">
+                  <h1>About</h1>
+                  <div id="bio"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Add other sections similarly -->
+          <section class="colorlib-footer no-print">
+            <div class="colorlib-narrow-content">
+              <p id="visitorCount">Visitor Count: Loading...</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/main.js"></script>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
+      import {
+        getFirestore,
+        doc,
+        getDoc,
+        setDoc,
+        updateDoc,
+      } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
 
-<style>
-  body {
-    background-color: #0a0f2c;
-    color: #ffffffd9;
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    min-height: 100vh;
-  }
+      const firebaseConfig = {
+        apiKey: "AIzaSyBM5-cQema1PzjpTPtCxIdmvTrWH2p1nc8",
+        authDomain: "vinaysomawat-portfolio.firebaseapp.com",
+        projectId: "vinaysomawat-portfolio",
+        storageBucket: "vinaysomawat-portfolio.appspot.com",
+        messagingSenderId: "996992279996",
+        appId: "1:996992279996:web:f296555eef216d501337b9",
+        measurementId: "G-8PVX0MLGSK"
+      };
 
-  .main-card {
-    max-width: 850px;
-    margin: 80px auto;
-    background: rgba(10, 18, 48, 0.85);
-    border-radius: 1.5rem;
-    box-shadow: 0 0 60px rgba(0, 255, 255, 0.08);
-    padding: 3rem;
-    text-align: center;
-    backdrop-filter: blur(10px);
-  }
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      const db = getFirestore(app);
+      const counterRef = doc(db, "visitors", "counter");
 
-  h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #00ccff;
-  }
+      async function updateVisitorCount() {
+        try {
+          const docSnap = await getDoc(counterRef);
+          if (docSnap.exists()) {
+            let newCount = docSnap.data().count + 1;
+            await updateDoc(counterRef, { count: newCount });
+            document.getElementById("visitorCount").innerText = `Visitor Count: ${newCount}`;
+          } else {
+            await setDoc(counterRef, { count: 1 });
+            document.getElementById("visitorCount").innerText = "Visitor Count: 1";
+          }
+        } catch (error) {
+          console.error("Error updating visitor count:", error);
+        }
+      }
 
-  .img-circle {
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
-    margin-bottom: 1rem;
-  }
-
-  .section-title {
-    margin-top: 2rem;
-    font-size: 1.4rem;
-    color: #88e1f2;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-    padding-bottom: 0.5rem;
-  }
-
-  .contact-info {
-    margin-top: 1.5rem;
-    font-size: 0.95rem;
-    color: #bbb;
-  }
-
-  .btn-custom {
-    background-color: #00b4d8;
-    border: none;
-    padding: 0.6rem 1.2rem;
-    font-size: 1rem;
-    color: white;
-    border-radius: 0.5rem;
-    margin: 1rem;
-    transition: background 0.3s;
-  }
-
-  .btn-custom:hover {
-    background-color: #0097b2;
-  }
-
-  .social-icons a {
-    margin: 0 0.5rem;
-    color: #ffffffc2;
-    font-size: 1.4rem;
-    transition: color 0.3s;
-  }
-
-  .social-icons a:hover {
-    color: #00f7ff;
-  }
-</style>
-
-<div class="main-card">
-  <img src="../assets/IMG_4313.png" alt="Ali Emami Kopaei" class="img-circle">
-  <h1>Ali Emami Kopaei</h1>
-  <p class="lead">Ph.D. Candidate in Physics<br>
-    Jagiellonian University, Krakow, Poland</p>
-
-  <div class="contact-info">
-    <p><i class="bi bi-envelope-fill"></i> ali.emami.app@gmail.com<br>
-       <i class="bi bi-envelope-fill"></i> ali.emami.kopaei.@doctoral.uj.edu.pl</p>
-  </div>
-
-  <div class="section-title">Research Interests</div>
-  <p>Time Crystals, Quantum Many-Body Physics, Neural Networks in Physics, Tensor Networks, TEBD, DMRG</p>
-
-  <div class="section-title">Computational Expertise</div>
-  <p>Machine Learning, Tensor Network Simulations, Exact Diagonalization, Quantum Monte Carlo, Krylov Methods</p>
-
-  <a href="{{ BASE_PATH }}/assets/cv_ali.pdf" class="btn btn-custom"><i class="bi bi-file-earmark-pdf-fill"></i> CV</a>
-
-  <div class="social-icons mt-3">
-    <a href="https://github.com/aliemami94"><i class="bi bi-github"></i></a>
-    <a href="https://www.linkedin.com/in/ali-e-7b5b25120/"><i class="bi bi-linkedin"></i></a>
-  </div>
-</div>
+      updateVisitorCount();
+    </script>
+  </body>
+</html>
