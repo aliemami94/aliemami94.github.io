@@ -196,7 +196,6 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
       My master's thesis prominently features the study of quantum phase transitions, with an emphasis on employing machine learning algorithms. 
   I conducted in-depth research on the quantum Ising model in the presence of transfer fields and next-nearest neighbor interactions, utilizing a <strong>Feedforward Neural Network</strong>. 
   Furthermore, we explored the phase transition from the Eigenstate Thermalization Hypothesis (ETH) to the Discrete-Time Crystal (DTC) by applying <strong>Recurrent Neural Networks</strong>.
-</p>
     </p>
   </div>
 
