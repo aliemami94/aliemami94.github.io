@@ -22,7 +22,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: url('/assets/Abstract-Time-Crystal-Concept.webp') no-repeat center center;
+      background: url('/assets/684064_b9da3.gif') no-repeat center center;
       background-size: cover;
       color: #ffffff;
       scroll-behavior: smooth;
