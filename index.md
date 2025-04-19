@@ -129,7 +129,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
       <h2 class="mb-3">About Me</h2>
       <p>
   I am currently a Ph.D. candidate in the field of physics, pursuing my doctoral studies at Jagiellonian University in Krakow, Poland, under the guidance of 
-  <a href="https://chaos.if.uj.edu.pl/~sacha/" target="_blank">Prof. Krzysztof Sacha</a>.. 
+  <a href="https://chaos.if.uj.edu.pl/~sacha/" target="_blank">Prof. Krzysztof Sacha</a>.
   My primary area of research revolves around the fascinating concept of <strong>Time Crystals</strong> You can find the list of my publications in <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&hl=en" target="_blank">Google Scholar</a>.
 </p>
 </div>
