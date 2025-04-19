@@ -1,33 +1,18 @@
+---
+layout: frontpage
+title: Ali Emami Kopaei
+description: Ph.D. Physics, physics at the Jagiellonian University, Krakow, Poland.
+keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei physics, A E Kopaei, A Emami Kopaei, a emami kopaei, ali emami kopaei, UJ ali emami
+---
 
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="{{ BASE_PATH }}/assets/favicon.png" />
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Ali Emami Kopaei</title>
-    <meta name="description" content="Ph.D. Physics, physics at the Jagiellonian University, Krakow, Poland.">
-    <meta name="keywords" content="Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei physics, A E Kopaei, A Emami Kopaei, a emami kopaei, ali emami kopaei, UJ ali emami">
-    <meta name="author" content="Ali Emami Kopaei">
+<!-- Bootstrap + Icons + AOS Animations -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <!-- Enable responsive viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Le styles -->
-    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
-    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href="/assets/themes/twitter/css/my_custom_css.css" rel="stylesheet" type="text/css" media="all">
-
-    <!-- Le fav and touch icons - this is where you can add a little icon that will show up in the address bar next to the addrss adn in search history next to website name
-    <link rel="SHORTCUT ICON" href="/assets/me.ico"/>
-    -->
-    <!-- atom & rss feed -->
-    <link href="nil" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="nil" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
   </head>
 
