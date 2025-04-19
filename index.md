@@ -105,7 +105,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://www.linkedin.com/in/ali-e-7b5b25120/">
+    <a class="nav-link" href="https://www.linkedin.com/in/ali-emami-kopaei-7b5b25120/">
       <i class="bi bi-linkedin"></i> LinkedIn
     </a>
   </li>
