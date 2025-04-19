@@ -243,7 +243,6 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
       </a>
     </p>
 
-  </main>
 
   <!-- Floating Side Box -->
   <div class="floating-box position-fixed top-50 end-0 translate-middle-y bg-dark text-white p-3 rounded-start shadow">
