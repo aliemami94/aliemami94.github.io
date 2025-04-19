@@ -5,7 +5,6 @@ description: Ph.D. Physics, physics at the Jagiellonian University, Krakow, Pola
 keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei physics, A E Kopaei, A Emami Kopaei, a emami kopaei, ali emami kopaei, UJ ali emami
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -212,6 +211,8 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   <!-- Floating Side Box -->
   <div class="floating-box position-fixed top-50 end-0 translate-middle-y bg-dark text-white p-3 rounded-start shadow">
     <h5>Quick Links</h5>
+    <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&amp;hl=en" target="d_blank text-warning">Google Scholar</a>
+    <a href="https://www.researchgate.net/profile/Ali-Emami-Kopaei-2" target="d_blank text-info">Research Gate</a>
     <a href="https://aliemami94.github.io/pages/research.html" target="_blank" class="d-block text-warning">🧪 Research</a>
     <a href="https://aliemami94.github.io/pages/teaching.html" target="_blank" class="d-block text-info">📘 Teaching</a>
   </div>
