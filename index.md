@@ -108,7 +108,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
 
 <ul class="navbar-nav">
   <li class="nav-item">
-    <a class="nav-link" href="/assets/cv_ali.pdf">
+    <a class="nav-link" href="/assets/CV_Ali.E.Kopaei_2025.pdf">
       <i class="bi bi-file-earmark-person"></i> CV
     </a>
   </li>
@@ -237,7 +237,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   </div>
 
   <p class="text-center" data-aos="zoom-in">
-    <a href="/assets/cv_ali.pdf" class="btn btn-outline-light btn-lg mt-3">
+    <a href="/assets/CV_Ali.E.Kopaei_2025.pdf" class="btn btn-outline-light btn-lg mt-3">
       <i class="bi bi-file-earmark-pdf"></i> Download CV
     </a>
   </p>
