@@ -129,8 +129,8 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
       <h2 class="mb-3">About Me</h2>
       <p>
   I am currently a Ph.D. candidate in the field of physics, pursuing my doctoral studies at Jagiellonian University in Krakow, Poland, under the guidance of 
-  <span style="color:cyan; font-weight:bold;">Professor Krzysztof Sacha</span>. 
-  My primary area of research revolves around the fascinating concept of <strong>Time Crystals</strong>.
+  <a href="https://chaos.if.uj.edu.pl/~sacha/" target="_blank">Prof. Krzysztof Sacha</a>.. 
+  My primary area of research revolves around the fascinating concept of <strong>Time Crystals</strong> You can find the list of my publications in <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&hl=en" target="_blank">Google Scholar</a>.
 </p>
 
 <p>
@@ -183,9 +183,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   This multifaceted journey through the realms of quantum many-body systems, time crystals, thermalization in quantum systems, and the application of neural networks in quantum systems 
   has been a remarkable part of my academic pursuits, shaping my path as a dedicated researcher in the field of physics.
 </p>
-      <p>I am currently a Ph.D. student in physics at the <strong>Jagiellonian University</strong>, Krakow, Poland, working with 
-      <a href="https://chaos.if.uj.edu.pl/~sacha/" target="_blank">Prof. Krzysztof Sacha</a>. My research focuses on 
-      <strong>Time Crystalline behavior</strong> and modern quantum systems. You can find the list of my publications in <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
+    
     </div>
     <div class="col-md-4 text-center">
       <img src="../assets/IMG_4313.png" alt="Ali Emami Kopaei" class="profile-img mt-3">
