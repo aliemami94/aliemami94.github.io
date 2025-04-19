@@ -93,22 +93,33 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   }
 </style>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top shadow">
-  <div class="container">
-    <a class="navbar-brand text-white fw-bold" href="#">Ali Emami Kopaei</a>
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="{{ BASE_PATH }}/assets/cv_ali.pdf"><i class="bi bi-file-earmark-person"></i> CV</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://github.com/aliemami94"><i class="bi bi-github"></i> GitHub</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/ali-e-7b5b25120/"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<ul class="navbar-nav">
+  <li class="nav-item">
+    <a class="nav-link" href="{{ BASE_PATH }}/assets/cv_ali.pdf">
+      <i class="bi bi-file-earmark-person"></i> CV
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/aliemami94">
+      <i class="bi bi-github"></i> GitHub
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/ali-e-7b5b25120/">
+      <i class="bi bi-linkedin"></i> LinkedIn
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="btn btn-warning btn-sm ms-2" href="https://aliemami94.github.io/pages/research.html" target="_blank">
+      🧪 Research
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="btn btn-info btn-sm ms-2 text-white" href="https://aliemami94.github.io/pages/teaching.html" target="_blank">
+      📘 Teaching
+    </a>
+  </li>
+</ul>
 
 <!-- Main Container -->
 <div class="container mt-5 pt-5">
