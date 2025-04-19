@@ -212,7 +212,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   <div class="floating-box position-fixed top-50 end-0 translate-middle-y bg-dark text-white p-3 rounded-start shadow">
     <h5>Quick Links</h5>
     <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&amp;hl=en" target="_blank" class="d-block text-warning">𝐆 Google Scholar</a>
-    <a href="https://www.researchgate.net/profile/Ali-Emami-Kopaei-2" target="_blank" class="d-block text-warning">📕 Research Gate</a>
+    <a href="https://www.researchgate.net/profile/Ali-Emami-Kopaei-2" target="_blank" class="d-block text-info">📕 Research Gate</a>
     <a href="https://aliemami94.github.io/pages/research.html" target="_blank" class="d-block text-warning">🧪 Research</a>
     <a href="https://aliemami94.github.io/pages/teaching.html" target="_blank" class="d-block text-info">📘 Teaching</a>
   </div>
