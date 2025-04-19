@@ -170,3 +170,9 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
 <!-- AOS Script -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init();</script>
+<!-- Floating Side Box -->
+<div class="floating-box">
+  <h5 class="text-white">Quick Links</h5>
+  <a href="https://aliemami94.github.io/pages/research.html" target="_blank" class="box-link">🧪 Research</a><br>
+  <a href="https://aliemami94.github.io/pages/teaching.html" target="_blank" class="box-link">📘 Teaching</a>
+</div>
