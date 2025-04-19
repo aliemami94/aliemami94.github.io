@@ -132,7 +132,11 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   <a href="https://chaos.if.uj.edu.pl/~sacha/" target="_blank">Prof. Krzysztof Sacha</a>.. 
   My primary area of research revolves around the fascinating concept of <strong>Time Crystals</strong> You can find the list of my publications in <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&hl=en" target="_blank">Google Scholar</a>.
 </p>
-
+</div>
+    <div class="col-md-4 text-center">
+      <img src="../assets/IMG_4313.png" alt="Ali Emami Kopaei" class="profile-img mt-3">
+    </div>
+  </div>
 <p>
   In our research group, we explore a diverse range of systems where we engineer the time-dependent components of the Hamiltonian to unlock unique phases and phenomena in the time domain. 
   Some part of this research is already published as a letter in 
@@ -184,11 +188,6 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   has been a remarkable part of my academic pursuits, shaping my path as a dedicated researcher in the field of physics.
 </p>
     
-    </div>
-    <div class="col-md-4 text-center">
-      <img src="../assets/IMG_4313.png" alt="Ali Emami Kopaei" class="profile-img mt-3">
-    </div>
-  </div>
 
   <div class="wave"></div>
 
