@@ -12,28 +12,6 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
-
-  </head>
-
-  <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container-narrow">
-          <a class="brand" href="/">Ali Emami Kopaei</a>
-          <ul class="nav">
-              <li><a href="/assets/CV.pdf">CV</a></li>
-              <li><a href="/pages/research.html">Research</a></li>
-              <li><a href="/pages/teaching.html">Teaching</a></li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-narrow">
-
-      <div class="content">
         
 
 <div class="row-fluid">
