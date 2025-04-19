@@ -135,35 +135,45 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
     </ul>
   </nav>
 
-  <!-- Main Content -->
-  <main class="container-fluid px-3 mt-4 pt-4">
+ 
+  <!-- RELEVANT FIXED SECTION ONLY -->
+<main class="container-fluid px-3 mt-4 pt-4" style="z-index: 2; position: relative;">
 
-    <div class="row align-items-center mb-5" data-aos="fade-up">
-      <div class="col-md-8">
-        <h2 class="mb-3">About Me</h2>
-        <p>
-          I am currently a Ph.D. candidate in the field of physics, pursuing my doctoral studies at Jagiellonian University in Krakow, Poland, under the guidance of 
-          <a href="https://chaos.if.uj.edu.pl/~sacha/" target="_blank">Prof. Krzysztof Sacha</a>.
-          My primary area of research revolves around the fascinating concept of <strong>Time Crystals</strong>.
-          You can find the list of my publications in <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&amp;hl=en" target="_blank">Google Scholar</a>.
-        </p>
-      </div>
-      <div class="col-md-4 text-center">
-        <img src="../assets/IMG_4313.png" alt="Ali Emami Kopaei" class="profile-img mt-3" />
-      </div>
+  <div class="row align-items-center mb-5" data-aos="fade-up">
+    <div class="col-md-8">
+      <h2 class="mb-3">About Me</h2>
+      <p>
+        I am currently a Ph.D. candidate in the field of physics, pursuing my doctoral studies at Jagiellonian University in Krakow, Poland, under the guidance of 
+        <a href="https://chaos.if.uj.edu.pl/~sacha/" target="_blank">Prof. Krzysztof Sacha</a>.
+        My primary area of research revolves around the fascinating concept of <strong>Time Crystals</strong>.
+        You can find the list of my publications in <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&amp;hl=en" target="_blank">Google Scholar</a>.
+      </p>
     </div>
+    <div class="col-md-4 text-center">
+      <img src="../assets/IMG_4313.png" alt="Ali Emami Kopaei" class="profile-img mt-3" />
+    </div>
+  </div>
 
-    <p>In our research group, we explore a diverse range of systems where we engineer the time-dependent components of the Hamiltonian to unlock unique phases and phenomena in the time domain...</p>
+  <!-- ✅ These paragraphs now fully visible and scrollable -->
+  <div class="section" data-aos="fade-up">
+    <p>
+      In our research group, we explore a diverse range of systems where we engineer the time-dependent components of the Hamiltonian to unlock unique phases and phenomena in the time domain...
+    </p>
+    <p>
+      During my Ph.D., I had the privilege of collaborating with <span style="color:cyan; font-weight:bold;">Professor Lingzhen Guo</span>... <span style="color:red; font-style:italic;">Phys. Rev. B</span>.
+    </p>
+    <p>
+      <strong>Another intriguing aspect of my research involves the creation of condensed matter phases within photonic systems</strong>. By modulating classical light or cavity-QED setups in time, we can simulate strongly correlated behavior usually observed in cold atoms or solid-state systems. See: <span style="color:red;">arXiv:2409.07885v1</span>.
+    </p>
+    <p>
+      In my master's studies, we focused on an interacting spinless fermionic system... <span style="color:red;">Phys. Rev. B</span>.
+    </p>
+    <p>
+      My master's thesis prominently features the study of quantum phase transitions... utilizing a <strong>Feedforward Neural Network</strong> and <strong>Recurrent Neural Networks</strong>.
+    </p>
+  </div>
 
-    <p>During my Ph.D., I had the privilege of collaborating with <span style="color:cyan; font-weight:bold;">Professor Lingzhen Guo</span>... <span style="color:red; font-style:italic;">Phys. Rev. B</span>.</p>
-
-    <p>Another intriguing aspect of my research involves the creation of condensed matter phases within photonic systems... <span style="color:red;">arXiv:2409.07885v1</span>.</p>
-
-    <p>In my master's studies, we focused on an interacting spinless fermionic system... <span style="color:red;">Phys. Rev. B</span>.</p>
-
-    <p>My master's thesis prominently features the study of quantum phase transitions... utilizing a <strong>Feedforward Neural Network</strong> and <strong>Recurrent Neural Networks</strong>.</p>
-
-    <div class="wave"></div>
+</main>
 
     <!-- Contact Section -->
     <div class="section" data-aos="fade-right">
