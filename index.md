@@ -256,17 +256,3 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   <a href="https://aliemami94.github.io/pages/teaching.html" target="_blank" class="box-link">📘 Teaching</a>
 </div>
 
-  </div>
-</div>
-
-
-      </div>
-
-      <hr>
-
-    </div>
-
-    
-  </body>
-</html>
-
