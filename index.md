@@ -90,7 +90,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
       <h2 class="mb-3">About Me</h2>
       <p>I am currently a Ph.D. student in physics at the <strong>Jagiellonian University</strong>, Krakow, Poland, working with 
       <a href="https://chaos.if.uj.edu.pl/~sacha/" target="_blank">Prof. Krzysztof Sacha</a>. My research focuses on 
-      <strong>Time Crystalline behavior</strong> and modern quantum systems. You can find the list of my publications in <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&hl=en" target="_blank">Google Scholar</a> </p>
+      <strong>Time Crystalline behavior</strong> and modern quantum systems. You can find the list of my publications in <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&hl=en" target="_blank">Google Schola.r</a> </p>
     </div>
     <div class="col-md-4 text-center">
       <img src="../assets/IMG_4313.png" alt="Ali Emami Kopaei" class="profile-img mt-3">
