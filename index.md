@@ -13,43 +13,66 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
 <style>
   body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to bottom, #fff0f0 0%, #ffe0e0 100%);
-    color: #222;
+    background: url('/assets/Abstract-Time-Crystal-Concept.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
     scroll-behavior: smooth;
+    position: relative;
+    z-index: 1;
   }
+
+  /* Overlay for better readability */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+  }
+
   .navbar {
-    background-color: #880808;
+    background-color: rgba(136, 8, 8, 0.85);
   }
+
   .navbar a {
     color: white !important;
   }
+
   .navbar a:hover {
     color: #ffcc00 !important;
   }
+
   .profile-img {
     max-width: 100%;
     border-radius: 1rem;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
     transition: transform 0.4s ease-in-out;
   }
+
   .profile-img:hover {
     transform: scale(1.05);
   }
+
   .section {
-    background: linear-gradient(145deg, #ff9999, #ff6666);
+    background: rgba(0, 0, 0, 0.75);
     color: white;
     border-radius: 1rem;
     padding: 2rem;
     margin-bottom: 2rem;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
   }
+
   .section-title {
     border-bottom: 2px solid #fff;
     margin-bottom: 1rem;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
     font-size: 1.5rem;
     font-weight: bold;
   }
+
   .wave {
     position: relative;
     width: 100%;
@@ -59,9 +82,14 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
     transform: rotate(180deg);
     margin-bottom: -3rem;
   }
+
   @keyframes wave {
-    0% { background-position-x: 0; }
-    100% { background-position-x: 1000px; }
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 1000px;
+    }
   }
 </style>
 
@@ -90,7 +118,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
       <h2 class="mb-3">About Me</h2>
       <p>I am currently a Ph.D. student in physics at the <strong>Jagiellonian University</strong>, Krakow, Poland, working with 
       <a href="https://chaos.if.uj.edu.pl/~sacha/" target="_blank">Prof. Krzysztof Sacha</a>. My research focuses on 
-      <strong>Time Crystalline behavior</strong> and modern quantum systems. You can find the list of my publications in <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&hl=en" target="_blank">Google Schola.r</a> </p>
+      <strong>Time Crystalline behavior</strong> and modern quantum systems. You can find the list of my publications in <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
     </div>
     <div class="col-md-4 text-center">
       <img src="../assets/IMG_4313.png" alt="Ali Emami Kopaei" class="profile-img mt-3">
