@@ -38,7 +38,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   }
 
   .navbar a {
-    color: white !important;
+    color: #000080 !important;
   }
 
   .navbar a:hover {
