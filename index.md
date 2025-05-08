@@ -182,7 +182,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   <span style="color:red;">arXiv:2409.07885v1</span> (submitted to <em>Phys. Rev. L</em>). 
   The next study we consider in the photonic system is the Anderson localization in a photonic time crystal. 
   The study is available in 
-  <span style="color:red;">Phys. Rev. </span>.
+  <span style="color:red;">Phys. Rev.B</span>.
     </p>
     <p>
       In my master's studies, we focused on an interacting spinless fermionic system. 
