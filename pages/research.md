@@ -3,6 +3,15 @@ layout: page
 title: Research
 description: A.Emami Kopaei's research
 ---
+#### <u>False signatures of non-ergodic behavior in disordered quantum many-body systems</u>
+Ergodic isolated quantum many-body systems satisfy the eigenstate thermalization hypothesis (ETH), i.e., the expectation values of local observables in the system’s eigenstates approach the predictions of the microcanonical ensemble. However, the ETH does not specify what happens to
+expectation values of local observables within an energy window when the average over disorder realizations is taken. As a result, the expectation values of local observables can be distributed over a relatively wide interval and may exhibit nontrivial structure, as shown in [Phys. Rev. B 104,
+214201 (2021)] for a quasiperiodic disordered system for site-resolved magnetization. We argue that the non-Gaussian form of this distribution may falsely suggest non-ergodicity and a breakdown of ETH. By considering various types of disorder, we find that the functional forms of the distributions of matrix elements of the site-resolved magnetization operator mirror the distribution of the onsite disorder. We argue that this distribution is a direct consequence of the local observable having a finite overlap with moments of the Hamiltonian. We then demonstrate how to adjust the energy window when analyzing expectation values of local observables in disordered quantum many-body systems to correctly assess the system’s adherence to ETH, and provide a link between the distribution of
+expectation values in eigenstates and the outcomes of quench experiments.
+
+
+[click here for the most recent version of the paper](https://arxiv.org/pdf/2507.16567)
+
 #### <u>Anderson Localization in Photonic Time Crystals</u>
 Solutions of the wave equations for time-independent disordered media can exhibit Anderson localization where instead of wave propagation we observe their localization around different points in space. Photonic time crystals are spatially homogeneous media in which the refractive index changes periodically in time, leading to the formation of bands in the wave number domain. By analogy to Anderson localization in space, one might expect that the presence of temporal disorder in photonic time crystals would lead to Anderson localization in the time domain. Here, we show that indeed periodic modulations of the refractive index with the addition of temporal disorder lead to Anderson localization in time, where an electromagnetic field can emerge from the temporally modulated medium at a certain moment in time and then decay exponentially over time. Thus, we are dealing with a situation where, in a fluctuating three-dimensional medium, the birth and death of waves can occur, and the mechanism of this phenomenon corresponds to Anderson localization.
 
