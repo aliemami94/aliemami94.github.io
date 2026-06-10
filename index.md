@@ -160,23 +160,6 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
       border-bottom-color: var(--accent-purple);
     }
 
-    .journal-tag {
-      color: var(--accent-purple);
-      font-weight: 600;
-      font-style: italic;
-    }
-
-    .arxiv-tag {
-      color: #fda4af;
-      font-family: monospace;
-      font-weight: 600;
-    }
-
-    .collaborator {
-      color: var(--text-main);
-      font-weight: 600;
-    }
-
     /* Custom Lists styling */
     .custom-list {
       list-style: none;
@@ -360,34 +343,31 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
 
     <div class="section" data-aos="fade-up">
       <div class="section-title">
-        <i class="bi bi-cpu"></i> Research Focus & Collaborations
+        <i class="bi bi-cpu"></i> Research Focus
       </div>
-      <div class="d-flex flex-column gap-3 fs-6 lh-lg text-secondary" style="color: var(--text-muted) !important;">
-        <p>
-          In our research group, we explore a diverse range of systems where we engineer the time-dependent components of the Hamiltonian to unlock unique phases and phenomena in the time domain. Some part of this research is already published as a letter in 
-          <span class="journal-tag">Phys. Rev. A</span> and <span class="journal-tag">Phys. Rev. R</span>. This exciting work has led to collaborations with esteemed researchers in the field.
-        </p>
-        <p>
-          During my Ph.D., I had the privilege of collaborating with 
-          <span class="collaborator">Professor Lingzhen Guo</span> from the Max Planck Institute. Together, we delved into the stability of phase space crystals, particularly in the presence of dissipation and temperature effects. Some of our findings from this collaboration were published in 
-          <span class="journal-tag">Phys. Rev. B</span>.
-        </p>
-        <p>
-          Another intriguing aspect of my research involves the creation of condensed matter phases within photonic systems. In collaboration with 
-          <span class="collaborator">Professor Almut Beige</span> (University of Leeds), 
-          <span class="collaborator">Professor Hossein Taheri</span> (University of California), and 
-          <span class="collaborator">Professor Andrey Matsko</span> (NASA), we explored the emergence of <strong>photonic time crystals</strong>. This innovative approach harnesses periodic changes in the refractive index over both time and space dimensions, leading to the creation of a novel system with intriguing band structures. This study is available on 
-          <span class="arxiv-tag">arXiv:2409.07885v1</span> (submitted to <em>Phys. Rev. L</em>). The next study we consider in photonic systems is Anderson localization in a photonic time crystal, published in 
-          <span class="journal-tag">Phys. Rev. B</span>.
-        </p>
-        <p>
-          In my master's studies, we focused on an interacting spinless fermionic system. Our investigations revealed that in our system, the weak breaking of ergodicity leads to the formation of the scarred state, resulting in the configuration of a discrete-time crystal. Part of this work, in collaboration with 
-          <span class="collaborator">Dr. Hadi Yarloo</span>, was published in 
-          <span class="journal-tag">Phys. Rev. B</span>.
-        </p>
-        <p>
-          My master's thesis prominently features the study of quantum phase transitions, with an emphasis on employing machine learning algorithms. I conducted in-depth research on the quantum Ising model in the presence of transfer fields and next-nearest neighbor interactions, utilizing a <strong>Feedforward Neural Network</strong>. Furthermore, we explored the phase transition from the Eigenstate Thermalization Hypothesis (ETH) to the Discrete-Time Crystal (DTC) by applying <strong>Recurrent Neural Networks</strong>.
-        </p>
+      <p class="fs-6 leading-relaxed mb-4 text-secondary" style="color: var(--text-muted) !important;">
+        My research focuses on engineered quantum dynamics, condensed matter theory, and quantum many-body physics. 
+        I specialize in studying the stability and emergence of novel phases—such as discrete and photonic 
+        <strong>time crystals</strong>—using advanced numerical techniques, tensor networks, and machine learning models. 
+        My work involves active collaborations with researchers across global institutions, including the Max Planck Institute, NASA, and the University of Leeds.
+      </p>
+
+      <div class="section-title mt-5 fs-6" style="border-bottom: 1px dashed rgba(255,255,255,0.1); padding-bottom: 0.5rem; color: var(--text-main);">
+        <i class="bi bi-journal-text text-info"></i> Latest from Google Scholar
+      </div>
+      
+      <div id="scholar-publications-loading" class="text-center py-4">
+        <div class="spinner-border spinner-border-sm text-info" role="status"></div>
+        <span class="ms-2 text-muted fs-7">Fetching latest publications...</span>
+      </div>
+
+      <div id="scholar-publications-list" class="d-flex flex-column gap-3 mt-3">
+        </div>
+      
+      <div class="text-end mt-3">
+        <a href="https://scholar.google.com/citations?user=ooL_O7sAAAAJ&hl=en" target="_blank" class="fs-7 text-info text-decoration-none">
+          See all papers on Google Scholar <i class="bi bi-arrow-right"></i>
+        </a>
       </div>
     </div>
 
@@ -445,7 +425,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
     </div>
 
     <div class="text-center mt-5" data-aos="zoom-in">
-      <a href="/assets/CV_Ali.E.Kopaei_2025.pdf" class="btn btn-custom-outline btn-lg px-4 py-2fs-6">
+      <a href="/assets/CV_Ali.E.Kopaei_2025.pdf" class="btn btn-custom-outline btn-lg px-4 py-2 fs-6">
         <i class="bi bi-file-earmark-pdf me-2"></i> Download Full CV
       </a>
     </div>
@@ -465,7 +445,70 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
   <script>
     AOS.init({ duration: 800, once: true });
 
-    // --- Quantum Particle Lattice Simulator (Canvas Engine) ---
+    // --- AUTOMATIC GOOGLE SCHOLAR UPDATER ENGINE ---
+    document.addEventListener("DOMContentLoaded", function() {
+      const scholarId = "ooL_O7sAAAAJ";
+      const targetUrl = `https://scholar.google.com/citations?user=${scholarId}&hl=en&pagesize=5`;
+      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}`;
+
+      const listContainer = document.getElementById("scholar-publications-list");
+      const loader = document.getElementById("scholar-publications-loading");
+
+      fetch(proxyUrl)
+        .then(response => {
+          if (!response.ok) throw new Error("Proxy connection failed.");
+          return response.json();
+        })
+        .then(data => {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(data.contents, "text/html");
+          const rows = doc.querySelectorAll(".gsc_a_tr");
+
+          if (rows.length === 0) {
+            throw new Error("No publication rows parsed.");
+          }
+
+          loader.style.display = "none";
+
+          rows.forEach((row, index) => {
+            if (index >= 5) return; // Cap top 5 items
+
+            const titleElement = row.querySelector(".gsc_a_at");
+            const title = titleElement ? titleElement.textContent : "Untitled Publication";
+            const relativeLink = titleElement ? titleElement.getAttribute("href") : "";
+            const absoluteLink = relativeLink ? `https://scholar.google.com${relativeLink}` : `https://scholar.google.com/citations?user=${scholarId}`;
+            
+            const details = row.querySelectorAll(".gs_gray");
+            const authors = details[0] ? details[0].textContent : "";
+            const venue = details[1] ? details[1].textContent : "";
+
+            const paperCard = document.createElement("div");
+            paperCard.className = "p-3 rounded border-1 border-dashed";
+            paperCard.style.background = "rgba(255,255,255,0.02)";
+            paperCard.style.borderColor = "rgba(255,255,255,0.05)";
+            
+            paperCard.innerHTML = `
+              <h6 class="mb-1 fs-6">
+                <a href="${absoluteLink}" target="_blank" class="academic-link fw-semibold">${title}</a>
+              </h6>
+              <div class="fs-7 text-white-50 opacity-75">${authors}</div>
+              <div class="fs-7 text-info opacity-70 mt-1"><i class="bi bi-journal-bookmark me-1"></i> ${venue}</div>
+            `;
+            listContainer.appendChild(paperCard);
+          });
+        })
+        .catch(err => {
+          console.error("Scholar update error: ", err);
+          loader.innerHTML = `
+            <span class="text-muted fs-7">
+              <i class="bi bi-exclamation-circle text-warning me-1"></i> 
+              Unable to load live feed directly. Please view updates on 
+              <a href="https://scholar.google.com/citations?user=${scholarId}&hl=en" target="_blank" class="text-info">Google Scholar</a>.
+            </span>`;
+        });
+    });
+
+    // --- QUANTUM PARTICLE LATTICE SIMULATOR (Canvas Background) ---
     const canvas = document.getElementById('quantum-canvas');
     const ctx = canvas.getContext('2d');
 
@@ -491,9 +534,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
     resizeCanvas();
 
     class Particle {
-      constructor() {
-        this.reset();
-      }
+      constructor() { this.reset(); }
       reset() {
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
@@ -504,12 +545,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
       update() {
         this.x += this.vx;
         this.y += this.vy;
-
-        if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height) {
-          this.reset();
-        }
-
-        // Mouse interactive quantum wave repulsion
+        if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height) this.reset();
         if (mouse.x !== null && mouse.y !== null) {
           let dx = this.x - mouse.x;
           let dy = this.y - mouse.y;
@@ -530,10 +566,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
     }
 
     function initParticles() {
-      particles = [];
-      for (let i = 0; i < maxParticles; i++) {
-        particles.push(new Particle());
-      }
+      for (let i = 0; i < maxParticles; i++) particles.push(new Particle());
     }
 
     function drawLines() {
@@ -542,7 +575,6 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
           let dx = particles[i].x - particles[j].x;
           let dy = particles[i].y - particles[j].y;
           let dist = Math.sqrt(dx * dx + dy * dy);
-
           if (dist < 120) {
             let alpha = (120 - dist) / 120 * 0.12;
             ctx.beginPath();
@@ -558,10 +590,7 @@ keywords: Ali Emami Kopaei, A.Emami Kopaei, Ali Emami, A.Emami, Ali Emami Kopaei
 
     function animate() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      particles.forEach(p => {
-        p.update();
-        p.draw();
-      });
+      particles.forEach(p => { p.update(); p.draw(); });
       drawLines();
       requestAnimationFrame(animate);
     }
